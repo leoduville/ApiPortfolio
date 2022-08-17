@@ -8,7 +8,7 @@ import com.portfolio.security.enums.RolNombre;
 import com.portfolio.security.model.Rol;
 import com.portfolio.security.service.RolService;
 
-@Component
+/*@Component
 public class CreateRoles implements CommandLineRunner {
 
     @Autowired
@@ -22,4 +22,4 @@ public class CreateRoles implements CommandLineRunner {
         rolService.save(rolUser);
          
     }
-}
+}*/
