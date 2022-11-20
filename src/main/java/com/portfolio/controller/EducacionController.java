@@ -81,6 +81,7 @@ public class EducacionController {
 	        educacion.setFecha(educacionDto.getFecha());
 	        educacion.setInstitucion(educacionDto.getInstitucion());
 	        educacion.setInformacion(educacionDto.getInformacion());
+			educacionService.save(educacion);
 	        return new ResponseEntity(new Mensaje("educacion actualizada"), HttpStatus.OK);
 	    }
 	  
